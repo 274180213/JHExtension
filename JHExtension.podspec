@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JHExtension/*/.{h,m}"
+  spec.source_files  = "JHExtension","*.{h,m}"
   #spec.source_files  = "JHExtension/NSExtension/*.{h,m}","JHExtension/UIExtension/*.{h,m}"
   #spec.source_files  = "JHExtension"
   #spec.source_files  = "JHExtension/**/*.h"
